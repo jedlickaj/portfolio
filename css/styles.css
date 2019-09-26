@@ -1,0 +1,78 @@
+body{
+
+background-color: #113358;
+}
+
+
+
+/* Style the navigation menu */
+.navbar {
+    width: 100%;
+    background-color: #CA7C58;
+    overflow: auto;
+}
+
+/* Navigation links */
+/* Style the navigation menu */
+.navbar {
+    width: 100%;
+    background-color: #382A3A;
+    overflow: auto;
+}
+
+/* Navigation links */
+.navbar a {
+    float: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #FFFAD9;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%;
+    /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center;
+    /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+    background-color: #CA7C58;
+}
+
+/* Style the current/active link */
+.navbar a:active {
+    background-color: #E7D399;
+}
+
+#bannerimg {
+    width: 100%;
+    height: auto;
+}
+.header{
+    text-align: center;
+}
+.text{
+    text-align: center;
+    
+}
+.firstimg{
+    position:relative;
+    align-content: center;
+    width: 40%;
+    left: 30%;
+    top: 20px;
+        
+}
+
+.design{
+    position: relative;
+    background-color: #FFFAD9;
+    color: #382A3A;
+    padding: 10px;
+    margin-left: 23%;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: #CA7C58;
+    width: 50%;
+    top:50px;
+}
