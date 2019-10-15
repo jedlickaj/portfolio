@@ -76,3 +76,42 @@ background-color: #113358;
     width: 50%;
     top:50px;
 }
+.projectlist{
+    position: absolute;
+    background-color: #FFFAD9;
+    color: #382A3A;
+    padding: 10px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: #CA7C58;
+    left: 50px;
+    top: 500px;
+    
+}
+.lbox{
+    position: ;
+    width: 800px;
+    background-color: #F8F6D4;
+    color: #27A603;
+    padding: 10px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: #F2E307;
+    border-top-color: #F29F05;
+    right: 50px;
+    top: 300px;
+    margin: 30px;
+}
+.lbox2{
+    position: ;
+    width: 800px;
+    background-color: #607091;
+    color: #1D1215;
+    padding: 10px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: #CF0513;
+    border-top-color: #1835BC;
+    right: 10px;
+    margin: 30px;
+}
