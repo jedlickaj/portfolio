@@ -115,3 +115,43 @@ background-color: #113358;
     right: 10px;
     margin: 30px;
 }
+.dicebox{
+    position: ;
+    width: 220px;
+    background-color: white;
+    color: #00B4E4;
+    padding: 10px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: #E85F9D #E89F1D #F2E529 #BCD442;
+    right: 10px;
+    margin: 30px;
+    
+}
+.bacteriabox{
+    position: ;
+    width: 800px;
+    background-color: #607091;
+    color: white;
+    padding: 10px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: #3399FF;
+    border-top-color: #FFB266;
+    right: 10px;
+    margin: 30px;
+}
+.holidaybox{
+    position: ;
+    width: 800px;
+    background-color: rgb(232, 249, 255);
+    color: rgb(5, 14, 93);
+    padding: 10px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: rgb(80, 222, 81);
+    border-top-color: rgb(67, 184, 255);
+    right: 10px;
+    margin: 30px;
+    
+}
