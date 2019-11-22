@@ -6,7 +6,8 @@ var score = 0;
 var n = 30;
 
 function setup() {
-    createCanvas(800, 800);
+    var canvas = createCanvas(800, 800);
+      canvas.parent('sketch-div');
     b = new Array();
     for (var i = 0; i < n; i++) {
         var xc1 = random(350, 450);

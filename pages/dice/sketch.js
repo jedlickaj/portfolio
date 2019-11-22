@@ -16,7 +16,8 @@ function preload(){
 
 function setup()
 {
-  createCanvas(750, 450);
+  var canvas = createCanvas(750, 450);
+    canvas.parent('sketch-div');
   //var n = 55;
   var r = random(255);
   var g = random(255);

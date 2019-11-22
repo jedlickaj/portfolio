@@ -9,7 +9,8 @@ function preload(){
 
 function setup() {
 //  createCanvas (800, 400, WEBGL);
-  createCanvas (800, 400,);
+  var canvas = createCanvas (800, 400);
+    canvas.parent('sketch-div')
   for (var i=0; i<1000; i++) {
     snow[i] = new SnowFlake();
   }
