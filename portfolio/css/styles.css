@@ -1,6 +1,5 @@
 body{
-
-background-color: #113358;
+    background-color: #113358;
 }
 
 
@@ -86,11 +85,41 @@ background-color: #113358;
     border-color: #CA7C58;
     left: 50px;
     top: 500px;
-    
+}
+.project{
+    display: flex;
+    justify-content: center;
+}
+/*
+.flex-container {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 5px dashed #FFFAD9
+}
+.child1{
+    flex-basis: 20%;
+    padding: 1rem;
+    height: 10%;
+}
+.child2{
+    flex-basis: 40%;
+    padding: 1rem;
+    height: 10%;
+    margin-top:20%;
+    border-width: 10px;
+}
+*/
+.textbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .lbox{
-    position: ;
-    width: 800px;
+    position: relative;
+    text-align: center;
+    width: 50%;
     background-color: #F8F6D4;
     color: #27A603;
     padding: 10px;
@@ -98,13 +127,13 @@ background-color: #113358;
     border-style: dashed;
     border-color: #F2E307;
     border-top-color: #F29F05;
-    right: 50px;
-    top: 300px;
+/*    right: 50px;*/
     margin: 30px;
 }
 .lbox2{
-    position: ;
-    width: 800px;
+    position: relative;
+    text-align: center;
+    width: 50%;
     background-color: #607091;
     color: #1D1215;
     padding: 10px;
@@ -112,6 +141,92 @@ background-color: #113358;
     border-style: dashed;
     border-color: #CF0513;
     border-top-color: #1835BC;
+    
+/*    right: 10px;*/
+    margin: 30px;
+}
+.dicebox{
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: white;
+    color: #00B4E4;
+    padding: 10px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: #E85F9D #E89F1D #F2E529 #BCD442;
+/*    right: 10px;*/
+    margin: 30px;
+    
+}
+.bacteriabox{
+    position: relative;
+    text-align: center;
+    width: 60%;
+    background-color: #607091;
+    color: white;
+    padding: 10px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: #3399FF;
+    border-top-color: #FFB266;
     right: 10px;
     margin: 30px;
+}
+.sbox{
+    position: relative;
+    text-align: center;
+    width: 50%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: darkgrey;
+    border-top-color: grey;
+/*    right: 50px;*/
+    margin: 30px;
+}
+.virusbox{
+    position: relative;
+    text-align: center;
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: red;
+    border-top-color: maroon;
+    right: 10px;
+    margin: 30px;
+}
+.grinchbox{
+    position: relative;
+    text-align: center;
+    width: 30%;
+    background-color: #055EA1;
+    color: white;
+    padding: 10px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: white;
+    border-top-color: greenyellow;
+    right: 10px;
+    margin: 30px;
+}
+.holidaybox{
+    position: relative;
+    text-align: center;
+    width: 60%;
+    background-color: rgb(232, 249, 255);
+    color: rgb(5, 14, 93);
+    padding: 10px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: rgb(80, 222, 81);
+    border-top-color: rgb(67, 184, 255);
+    right: 10px;
+    margin: 30px;
+    
 }
