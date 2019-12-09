@@ -187,6 +187,34 @@ body{
 /*    right: 50px;*/
     margin: 30px;
 }
+.virusbox{
+    position: relative;
+    text-align: center;
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: red;
+    border-top-color: maroon;
+    right: 10px;
+    margin: 30px;
+}
+.grinchbox{
+    position: relative;
+    text-align: center;
+    width: 30%;
+    background-color: #055EA1;
+    color: white;
+    padding: 10px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: white;
+    border-top-color: greenyellow;
+    right: 10px;
+    margin: 30px;
+}
 .holidaybox{
     position: relative;
     text-align: center;
